@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payment Integration</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Payment Integration</h1>
+    <div class="payment-form">
+      <h2>Deposit</h2>
+      <input type="text" id="depositAmount" placeholder="Enter amount">
+      <div class="payment-options">
+        <button id="paytmBtn">Paytm</button>
+        <button id="phonepayBtn">PhonePe</button>
+        <button id="upiBtn">UPI</button>
+      </div>
+      <h2>Withdraw</h2>
+      <input type="text" id="withdrawAmount" placeholder="Enter amount">
+      <div class="payment-options">
+        <button id="paytmWithdrawBtn">Paytm</button>
+        <button id="phonepayWithdrawBtn">PhonePe</button>
+        <button id="upiWithdrawBtn">UPI</button>
+      </div>
+    </div>
+    <div class="balance">
+      <h2>Current Balance:</h2>
+      <p id="balanceAmount">$0</p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
